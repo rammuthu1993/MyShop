@@ -4,12 +4,12 @@ document.getElementById('qty').innerHTML = memory.length
 emcart = memory
 // if(memory.length==""){document.getElementById('qty').innerHTML = 0}
 }
-let imgcart =[{name:'apple',price:3000,img:'/imgs/ss1.jpeg',imgs:['/imgs/s1.png','/imgs/s2.jpg','/imgs/s3.jpeg','/imgs/s4.webp']},                  
-{name:'oppo',price:6000,img:'/imgs/ss3.jpeg',imgs:['/imgs/s2.jpg','/imgs/s2.jpg','/imgs/s3.jpeg','/imgs/s4.webp']},
-{name:'redmi',price:4000,img:'/imgs/ss3.jpeg',imgs:['/imgs/s1.png','/imgs/s2.jpg','/imgs/s3.jpeg','/imgs/s4.webp']},
-{name:'redmi',price:4000,img:'/imgs/ss4.jpeg',imgs:['/imgs/s1.png','/imgs/s2.jpg','/imgs/s3.jpeg','/imgs/s4.webp']}
+let imgcart =[{name:'apple',price:3000,img:'/imgs/ss1.jpeg',imgs:['/imgs/s1.png','/imgs/s2.jpg','/imgs/s5.jpeg','/imgs/s4.webp']},                  
+{name:'oppo',price:6000,img:'/imgs/ss3.jpeg',imgs:['/imgs/s2.jpg','/imgs/s2.jpg','/imgs/s6.jpeg','/imgs/s4.webp']},
+{name:'redmi',price:4000,img:'/imgs/ss3.jpeg',imgs:['/imgs/s1.png','/imgs/s2.jpg','/imgs/s7.jpeg','/imgs/s4.webp']},
+{name:'redmi',price:4000,img:'/imgs/ss4.jpeg',imgs:['/imgs/s1.png','/imgs/s2.jpg','/imgs/s8.jpeg','/imgs/s4.webp']}
  ]    
-   count = 0
+
  document.getElementById('shop').innerHTML = imgcart.map((v,i)=>{
 
     let {name,price,img,imgs} = v
